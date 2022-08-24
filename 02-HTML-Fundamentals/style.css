@@ -1,0 +1,93 @@
+.content {
+  height: 75px;
+  width: 75px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.containt {
+  width: 800px;
+  margin: 0 auto;
+}
+#header-hr {
+  margin: 0;
+  height: 10px;
+  background-color: #ad18a8;
+}
+h1,
+h2,
+h3,
+h4,
+a,
+p {
+  color: blueviolet;
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 24px;
+  font-family: sans-serif;
+  font-style: italic;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  color: #444;
+}
+li {
+  font-size: 20px;
+}
+article header p {
+  font-style: italic;
+  font-size: 18px;
+}
+#copy-right {
+  font-size: 10;
+  color: black;
+}
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+.related {
+  list-style-type: none;
+}
+.topest-header {
+  background-color: #f4f4f4;
+  margin-top: 0px;
+}
+aside {
+  background-color: #f4f4f4;
+  border-top: 4px solid #ad18a8;
+  border-bottom: 4px solid #ad18a8;
+  width: 500px;
+}
+li:first-child {
+  font-weight: 800;
+}
+li:last-child {
+  font-style: italic;
+}
+a:link {
+  text-decoration: none;
+  font-size: 18px;
+}
+a:hover {
+  cursor: pointer;
+  color: #ff7b00;
+  text-decoration: underline;
+}
