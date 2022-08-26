@@ -6,17 +6,15 @@ body {
   margin: 0;
   padding: 0;
   position: relative;
+  border-top: 10px solid blueviolet;
+  font-family: sans-serif;
 }
 
 .containt {
   width: 800px;
   margin: 0 auto;
 }
-#header-hr {
-  margin: 0;
-  height: 10px;
-  background-color: #ad18a8;
-}
+
 h1,
 h2,
 h3,
@@ -24,11 +22,9 @@ h4,
 a,
 p {
   color: blueviolet;
-  font-family: sans-serif;
 }
 h1 {
   font-size: 24px;
-  font-family: sans-serif;
   font-style: italic;
   text-transform: uppercase;
 }
@@ -90,4 +86,8 @@ a:hover {
   cursor: pointer;
   color: #ff7b00;
   text-decoration: underline;
+}
+.imag-containt {
+  height: auto;
+  width: 100%;
 }
