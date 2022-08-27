@@ -5,12 +5,11 @@
 body {
   margin: 0;
   padding: 0;
-  position: relative;
   border-top: 10px solid blueviolet;
   font-family: sans-serif;
 }
 
-.containt {
+.container {
   width: 800px;
   margin: 0 auto;
 }
@@ -51,6 +50,7 @@ article header p {
   font-style: italic;
   font-size: 18px;
 }
+
 #copy-right {
   font-size: 10;
   color: black;
@@ -62,7 +62,7 @@ article header p {
 .related {
   list-style-type: none;
 }
-.topest-header {
+.toppest-header {
   background-color: #f4f4f4;
   margin-top: 0px;
 }
@@ -71,6 +71,7 @@ aside {
   border-top: 4px solid #ad18a8;
   border-bottom: 4px solid #ad18a8;
   width: 500px;
+  position: relative;
 }
 li:first-child {
   font-weight: 800;
@@ -90,4 +91,21 @@ a:hover {
 .imag-containt {
   height: auto;
   width: 100%;
+}
+nav a:link {
+  display: inline-block;
+  margin-left: 10px;
+}
+h1::first-letter {
+  font-style: normal;
+}
+button {
+  padding: 20px;
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  cursor: pointer;
+}
+button::first-letter {
+  color: red;
 }
