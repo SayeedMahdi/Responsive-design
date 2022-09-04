@@ -1,35 +1,39 @@
-.content {
-  height: 75px;
-  width: 75px;
-}
 body {
   margin: 0;
   padding: 0;
   border-top: 10px solid blueviolet;
   font-family: sans-serif;
 }
+* {
+  color: blueviolet;
+}
 
-.container {
+.content-container {
   width: 800px;
   margin: 0 auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-a,
-p {
-  color: blueviolet;
-}
-h1 {
+.header-main {
   font-size: 24px;
   font-style: italic;
   text-transform: uppercase;
 }
-h2 {
+
+.header-main {
   font-size: 40px;
+  font-style: italic;
 }
+
+.header-main::after {
+  content: "TOP";
+  background-color: #ffe70e;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  top: -10;
+  right: -20;
+}
+
 h3 {
   font-size: 30px;
 }
@@ -81,7 +85,6 @@ li:last-child {
 }
 a:link {
   text-decoration: none;
-  font-size: 18px;
 }
 a:hover {
   cursor: pointer;
@@ -95,7 +98,13 @@ a:hover {
 nav a:link {
   display: inline-block;
   margin-left: 10px;
+  text-transform: capitalize;
 }
+nav {
+  text-align: center;
+  font-size: 18px;
+}
+
 h1::first-letter {
   font-style: normal;
 }
@@ -108,4 +117,19 @@ button {
 }
 button::first-letter {
   color: red;
+}
+
+.aside-image {
+  height: 75px;
+  width: 75px;
+}
+
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+.author {
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
 }

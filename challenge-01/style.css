@@ -1,20 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: #444;
   background-color: #e4e4e4;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.contiant {
+.content {
   border: 4px solid black;
-  overflow: auto;
   text-align: justify;
-  width: 700px;
+  width: 750px;
+  height: 600px;
   margin: 0 auto;
+  position: relative;
 }
-.contiant img {
-  height: 150px;
-  box-shadow: 0px 4px 4px #444;
-}
+
 .header {
   margin-top: 0;
   height: 50px;
@@ -25,10 +27,24 @@ body {
   font-weight: bold;
   text-transform: uppercase;
 }
+
+.content__sale {
+  background-color: #ec2f2f;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  padding: 8px;
+  top: -30px;
+  left: -20px;
+}
+
 #price {
   font-weight: bold;
   font-size: x-large;
   margin-bottom: 0px;
+  float: left;
 }
 .more-info:active,
 .more-info:link {
@@ -54,4 +70,56 @@ body {
   color: black;
   background-color: white;
   border-top: 4px solid black;
+}
+.color-boxes {
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.content__black {
+  background-color: #444;
+}
+
+.content__red {
+  background-color: #ff0000c2;
+}
+
+.content__green {
+  background-color: #0080009d;
+}
+
+.content__blue {
+  background-color: lightblue;
+}
+
+.content__brown {
+  background-color: brown;
+}
+.content__yellow {
+  background-color: yellow;
+}
+.content-img {
+  float: left;
+  display: block;
+  height: 200px;
+}
+
+.cart-info {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+.price-part p {
+  clear: both;
+}
+
+.price-part {
+  float: left;
+  width: 243px;
+}
+aside {
+  float: left;
+  width: 243px;
 }
