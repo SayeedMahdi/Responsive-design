@@ -11,13 +11,16 @@
       }
       .el--2 {
         background-color: orangered;
+        /* grid-column: 1 / 2;
+        grid-row: 2 / 3; */
       }
       .el--3 {
         background-color: green;
-        height: 150px;
+        /* height: 150px; */
       }
       .el--4 {
         background-color: goldenrod;
+        /* grid-column: 1 / 3; */
       }
       .el--5 {
         background-color: palevioletred;
@@ -36,10 +39,17 @@
         /* STARTER */
         font-family: sans-serif;
         background-color: #ddd;
-        font-size: 40px;
+        font-size: 20px;
         margin: 40px;
+        display: none;
 
         /* CSS GRID */
+
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 10px;
+        height: 400px;
+        row-gap: 30px;
       }
 
       .container--2 {
@@ -48,11 +58,21 @@
         background-color: black;
         font-size: 40px;
         margin: 100px;
-
-        width: 1000px;
+        /* display: none; */
+        width: 600px;
         height: 600px;
 
         /* CSS GRID */
+        display: grid;
+        grid-template-columns: 125px 200px 125px;
+        grid-template-rows: 200px 150px;
+        gap: 30px;
+        align-content: center;
+        justify-content: center;
+
+        /* Align Items */
+        align-items: flex-start;
+        justify-items: flex-start;
       }
     </style>
   </head>
