@@ -42,7 +42,9 @@ h2 {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 80px;
 }
-
+.images{
+  border-radius: 8px;
+}
 /* ------------------------ */
 /* COMPONENT STYLES */
 /* ------------------------ */
@@ -64,7 +66,17 @@ h2 {
 .btn:active {
   background-color: #099268;
 }
-
+.icon-section{
+  color: #087f5b;
+  width: 24px;
+  height: 24px;
+  margin-bottom:10px ;
+}
+.items-icon{
+  color: #087f5b;
+  width: 24px;
+  height: 18px;
+}
 .btn--big {
   font-size: 18px;
   padding: 16px 32px;
@@ -91,6 +103,7 @@ h1 {
   font-size: 44px;
   line-height: 1.1;
   letter-spacing: -1px;
+  text-shadow: 0 8px 3px rgba(0, 0, 0, 0.1);
 }
 
 .header-text {
@@ -122,8 +135,11 @@ img {
   background-color: #099268;
   color: #fff;
   padding: 24px;
+  border-radius: 8px;
 }
-
+.chair{
+  box-shadow: 0 30px 30px 0 rgba(0,0,0,0.3);
+}
 .testimonial-box {
   grid-column: 2 / -1;
   align-self: center;
