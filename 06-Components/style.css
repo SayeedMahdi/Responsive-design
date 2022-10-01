@@ -1,0 +1,17 @@
+.accordion {
+  width: 700px;
+  margin: 50px auto;
+  background-color: aquamarine;
+}
+.item {
+}
+.number {
+}
+.titel {
+}
+.hiden {
+  display: none;
+}
+.open {
+  display: block;
+}
