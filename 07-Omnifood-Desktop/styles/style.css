@@ -62,24 +62,25 @@ Medium: 11px
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "rubik", sans-serif;
   font-weight: 400;
   font-size: 62.5%;
   color: #555;
 }
 
 .hero {
-  max-width: 70rem;
+  max-width: 130rem;
   margin: 0 auto;
+  padding: 0 3.2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
   align-items: center;
-
-  gap: 6.4rem;
 }
 .hero-section {
   background-color: #fdf2e9;
   padding: 4rem 0;
+  display: flex;
 }
 .hero-image {
   width: 100%;
@@ -106,7 +107,7 @@ body {
 .btn:visited {
   display: inline-block;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 600;
   text-decoration: none;
   padding: 1rem 2rem;
   border-radius: 9px;
@@ -139,4 +140,24 @@ body {
 
 .margin-right-space {
   margin-right: 1.6rem;
+}
+
+.deliver-meals {
+  display: flex;
+  margin-top: 6rem;
+  align-items: center;
+  gap: 6px;
+}
+.deliver-images {
+  display: flex;
+}
+.deliver-images img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+}
+
+.deliver-text {
+  font-weight: 600;
+  font-size: 1rem;
 }

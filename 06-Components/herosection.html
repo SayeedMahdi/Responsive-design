@@ -65,6 +65,14 @@
     .anotherdiv {
       width: 50%;
     }
+    .mainsection {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .mainsection a {
+      width: 140px;
+    }
   </style>
   <body>
     <header>
@@ -74,9 +82,11 @@
       </nav>
       <div class="container-header">
         <div class="anotherdiv">
-          <h1>A healthy meal delivered to your door, every single day</h1>
-          <p>The smart 365-days-per-year food that we deliver for you</p>
-          <a href="#" class="btn">Start eatting well </a>
+          <div class="mainsection">
+            <h1>A healthy meal delivered to your door, every single day</h1>
+            <p>The smart 365-days-per-year food that we deliver for you</p>
+            <a href="#" class="btn">Start eatting well </a>
+          </div>
         </div>
       </div>
     </header>
