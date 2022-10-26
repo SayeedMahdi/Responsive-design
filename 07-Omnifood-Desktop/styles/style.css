@@ -58,8 +58,24 @@ Medium: 11px
 
 /***************
    GENERAL SECTION
-
 *****************/
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+.grid--2--col {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--4--col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -72,13 +88,34 @@ body {
   font-size: 62.5%;
   color: #555;
 }
-.hero-primary {
-  font-size: 3.4rem;
+
+.heading-primary,
+.heading-secondary {
   letter-spacing: -0.5px;
-  line-height: 1.05;
   font-weight: 700;
   color: #333;
+}
+
+.heading-primary {
+  line-height: 1.05;
+  font-size: 2.8rem;
   margin-bottom: 2rem;
+}
+
+.heading-secondary {
+  line-height: 1.2;
+  font-size: 3.2rem;
+  margin-bottom: 8.6rem;
+}
+
+.subheading {
+  display: block;
+  font-size: 1.03rem;
+  margin-bottom: 1.3rem;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  color: #cf711f;
+  font-weight: 500;
 }
 
 .btn:link,
@@ -132,13 +169,11 @@ body {
 }
 .hero-section {
   background-color: #fdf2e9;
-  padding: 3.6rem 0 8.6rem 0;
+  padding: 3.6rem 0 6.6rem 0;
   display: flex;
 }
 .hero-image {
   width: 100%;
-}
-.hero-text {
 }
 
 .hero-description {
@@ -204,3 +239,20 @@ body {
   width: 500;
   font-size: 1rem;
 }
+
+/*****************/
+/**   How it Work **/
+/****************/
+.show-section {
+  padding: 5.6rem 0;
+}
+.step-img {
+  width: 50%;
+}
+
+/* .show-section div div {
+  padding: 100px;
+
+  background-color: #555;
+  color: #fff;
+} */
