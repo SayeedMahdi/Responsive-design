@@ -368,3 +368,144 @@
 .section-price {
   padding: 9.6rem 0;
 }
+
+.pricing-plan--starter{
+    justify-self: flex-end;
+    border: 1px solid #fae5d3;
+}
+
+.pricing-plan{
+ border-radius: 9px;
+ width: 75%;
+} 
+
+.heading-price{
+  margin-bottom: 4.8rem;
+}
+
+.price-name{
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #cf711f;
+  text-transform: uppercase;
+  margin-bottom: 3.6rem;
+}
+.price-amount{
+  font-size: 6.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.pricing-plan--complete{
+ background-color: #fdf2e9;
+}
+
+
+.price-sign{
+font-size: 3.2rem;
+}
+
+.price-text{
+  font-size: 1.6rem;
+
+}
+
+.price-list{
+ margin-bottom: 6.4rem;
+}
+
+.content{
+ padding: 4.6rem;
+}
+
+.detailed-text{
+  font-size: 1.6rem;
+
+}
+.feature-icon{
+   margin-bottom: 2.4rem;
+   background-color: #fae5d3;
+   padding: 2rem;
+   border-radius: 50%;
+
+}
+
+.feature-title{
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.feature-text{
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+
+/**************************/
+/* Cta SECTION */
+/**************************/
+
+.section-cta{
+  padding: 6.4rem 0;
+}
+
+.cta{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 70vh;
+  background-image: linear-gradient(to right bottom,#eb984e, #e67e22 );
+  border-radius: 11px;
+  overflow: hidden;
+}
+.cta-text-box{
+  color:  #45260a;
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+}
+
+.cta-img-box{
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(to right bottom, #eb974e6e, #db873d5e), url(../img/eating.jpg);
+}
+
+.cta-text-box .heading-secondary{
+  color: inherit;
+  margin-bottom: 4.8rem;
+}
+.cta-text{
+  font-size: 1.8rem;
+  line-height: 2;
+  color: inherit;
+  margin-bottom: 6.4rem;
+}
+
+.cta-form{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.cta-form  label{
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: inherit;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form  input{
+  width: 100%;
+  padding: 1.4rem;
+  border-radius: 11px;
+  border: none;
+}
+
+.cta-form  input:focus{
+ border: 2px solid #fff;
+}
+
+.cta-form input::placeholder{
+  font-size: 1.8rem;
+  color: #999;
+}

@@ -281,3 +281,8 @@ body {
 strong {
   font-weight: 500;
 }
+
+
+div{
+  display: block;
+}
