@@ -75,10 +75,13 @@ Medium: 11px
   grid-template-columns: repeat(2, 1fr);
 }
 .grid--4--col {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid--3--col {
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.grid-con-center{
+.grid-con-center {
   align-items: center;
 }
 
@@ -103,10 +106,10 @@ Medium: 11px
 .heading-secondary {
   line-height: 1.2;
   font-size: 3.2rem;
-  margin-bottom: 8.6rem;
+  margin-bottom: 4.6rem;
 }
 
-.heading-triationary{
+.heading-triationary {
   font-size: 2.4rem;
   margin-bottom: 2.4rem;
 }
@@ -167,10 +170,12 @@ body {
   margin-right: 1rem;
 }
 
-.step-number{
+.step-number {
   font-size: 8.4rem;
   width: 700;
   color: #ddd;
   margin-bottom: 1.6rem;
 }
-
+strong {
+  width: 500;
+}
