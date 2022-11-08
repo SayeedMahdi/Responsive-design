@@ -81,6 +81,10 @@ Medium: 11px
   grid-template-columns: repeat(3, 1fr);
 }
 
+.grid--5--col {
+  grid-template-columns: 1fr 1fr;
+}
+
 .grid-con-center {
   align-items: center;
 }
