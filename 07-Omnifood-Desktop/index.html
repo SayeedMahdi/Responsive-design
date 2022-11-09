@@ -553,7 +553,33 @@
 							<form action="#" class="cta-form" method="post">
 								<div>
 									<label for="fullName">Full Name</label>
-									<input type="text" placeholder="John Smith" id="fullName" />
+									<input
+										type="text"
+										placeholder="John Smith"
+										id="fullName"
+										required
+									/>
+								</div>
+								<div>
+									<label for="email">Email:</label>
+									<input
+										type="email"
+										placeholder="@email.com"
+										id="email"
+										required
+									/>
+								</div>
+								<div>
+									<label for="option">Where did you hear from us?</label>
+									<select type="from-where" id="fullName" required>
+										<option value="selected">please chose one option:</option>
+										<option value="friend">family and friend</option>
+										<option value="news">news paper and tv shows</option>
+										<option value="websites">websites</option>
+									</select>
+								</div>
+								<div>
+									<button class="btn btn-form">Sign Up Now</button>
 								</div>
 							</form>
 						</div>
@@ -561,6 +587,7 @@
 					</div>
 				</div>
 			</section>
+			<section class="footer"></section>
 		</main>
 	</body>
 </html>
