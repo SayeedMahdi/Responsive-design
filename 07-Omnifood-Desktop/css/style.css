@@ -401,6 +401,24 @@
 
 .pricing-plan--complete {
   background-color: #fdf2e9;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-plan--complete::after{
+  content: "Best Value";
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #333;
+  background-color: #ffd43b;
+  width: 50%;
+  position: absolute;
+  padding: 0.5rem;
+  text-align: center;
+  top: 6%;
+  right: -12%;
+  rotate: 45deg;
 }
 
 .price-sign {
@@ -596,3 +614,4 @@ color: #333;
 .contacts{
   font-style: normal;
 }
+
